@@ -30,7 +30,7 @@ class FotoActivity: AppCompatActivity() {
     private lateinit var binding : ActivityFotoBinding
     private lateinit var cameraExecutor : ExecutorService
     private lateinit var imageCapture: ImageCapture
-    private lateinit var peli: String
+    private var peli: String = ""
     private var id = -1
 
     override fun onCreate(savedInstanceState: Bundle?) {
